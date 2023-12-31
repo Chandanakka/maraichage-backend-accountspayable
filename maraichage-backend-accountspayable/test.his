@@ -1,0 +1,1000 @@
+   23  sudo sysctl kernel.hostname=MaRa-I-ChaGe
+   24  sudo nmcli general hostname MaRa-I-ChaGe
+   25  sudo hostnamectl
+   26  hostnamectl
+   27  sudo vi /etc/hosts
+   28  ping 192.168.0.179
+   29  ping MaRa-I-ChaGe
+   30  ping 49.205.194.216
+   31  cd 
+   32  cd ReactJS/my-app/
+   33  npm start
+   34  domainname
+   35  domainname -h
+   36  sudo vi /etc/hosts
+   37  sudo hostname $(cat /etc/hostname)
+   38  sudo MaRa-I-ChaGe $(cat /etc/hostname)
+   39  sudo hostname $(cat /etc/hostname)
+   40  hostname
+   41  sudo resolvconf -u
+   42  sudo vi /etc/resolv.conf 
+   43  sudo vi /etc/hosts
+   44  ping www.maraichage.com
+   45  sudo vi /etc/hosts
+   46  ping www.maraichage.com
+   47  sudo vi /etc/hosts
+   48  ping www.maraichage.com
+   49  ping 49.205.194.216
+   50  clear
+   51  npm start
+   52  which openssl
+   53  ls
+   54  cd 
+   55  ;s
+   56  ls
+   57  cd keystore/
+   58  ls
+   59  openssl genrsa -aes256 -passout pass:gsahdg -out server.pass.key 4096
+   60  openssl rsa -passin pass:gsahdg -in server.pass.key -out server.key
+   61  rm server.pass.key
+   62  openssl req -new -key server.key -out server.csr
+   63  ls -la
+   64  openssl x509 -req -sha256 -days 365 -in server.csr -signkey server.key -out server.crt
+   65  ls -la
+   66  cd ..
+   67  rm -Rf keystore/
+   68  cd IdeaProjects/
+   69  ls
+   70  cd maraichage-backend-accountsreceivable/
+   71  ls
+   72  cd src/
+   73  ls
+   74  cd main/
+   75  ls
+   76  cd resources/
+   77  clear
+   78  openssl genrsa -aes256 -passout pass:gsahdg -out server.pass.key 4096
+   79  penssl rsa -passin pass:gsahdg -in server.pass.key -out server.key
+   80  rm server.pass.key
+   81  openssl req -new -key server.key -out server.csr
+   82  openssl rsa -passin pass:gsahdg -in server.pass.key -out server.key
+   83  openssl genrsa -aes256 -passout pass:gsahdg -out server.pass.key 4096
+   84  openssl rsa -passin pass:gsahdg -in server.pass.key -out server.key
+   85  rm server.pass.key
+   86  openssl req -new -key server.key -out server.csr
+   87  openssl x509 -req -sha256 -days 365 -in server.csr -signkey server.key -out server.crt
+   88  ls -la
+   89  keytool -genkeypair -alias baeldung -keyalg RSA -keysize 2048 -storetype PKCS12 -keystore baeldung.p12 -validity 3650
+   90  keytool -genkeypair -alias baeldung -keyalg RSA -keysize 2048 -keystore baeldung.jks -validity 3650
+   91  ls -l
+   92  mkdir keystore
+   93  cp baeldung.p12 keystore/
+   94  keytool -genkeypair -keyalg RSA -keysize 2048 -storetype PKCS12 -keystore keystore.p12 -validity 3650
+   95  pwd
+   96  cd 
+   97  cd ReactJS/my-app/
+   98  npm start
+   99  more .env
+  100  vi .env
+  101  npm start
+  102  vi .env
+  103  npm start
+  104  vi .env
+  105  npm start
+  106  clear
+  107  cd
+  108  git clone https://github.com/certbot/certbot
+  109  cd certbot/
+  110  ./certbot-auto --help
+  111  ls -la
+  112  ./certbot-auto --help
+  113  ./certbot-auto certonly -a standalone      -d seeld.eu -d www.seeld.eu
+  114  pwd
+  115  ls .*
+  116  sudo ./certbot-auto --help
+  117  cd ..
+  118  r,m -Rf certbot/
+  119  rm -Rf certbot/
+  120  clear
+  121  git clone https://github.com/certbot/certbot 
+  122  cd certbot/
+  123  ./certbot-auto certonly -a standalone -d wstutorial.com -d www.wstutorial.com
+  124  ls -la
+  125  clear
+  126  certbot
+  127  ./certbot
+  128  cd certbot
+  129  ls
+  130  ./certbot
+  131  cd certbot
+  132  ls
+  133  cd
+  134  cd certbot/
+  135  ls
+  136  cd ..
+  137  rm -Rf certbot/
+  138  clear
+  139  git clone git@github.com:certbot/certbot.git
+  140  cd certbot
+  141  ./certbot-auto renew --pre-hook "service nginx stop" --post-hook "service nginx start"
+  142  cd 
+  143  rm -Rf certbot/
+  144  exit
+  145  cd Downloads/ideaIC-2023.2.2/idea-IC-232.9921.47/bin/
+  146  ./idea.sh 
+  147  cd Downloads/postman-linux-x64\ \(1\)/
+  148  postman
+  149  cd Downloads/postman-linux-x64\ \(1\)/
+  150  postman
+  151  clear
+  152  cd
+  153  sudo dnf install certbot
+  154  sudo dnf install certbot -y 
+  155  sudo dnf install epel-release -y 
+  156  cd 
+  157  cd Certbot\ 2.7.4\ source\ code/
+  158  cd certbot-certbot-8cbcff7/
+  159  ls
+  160  cd certbot
+  161  ls
+  162  pip
+  163  pip install
+  164  ls -la
+  165  pip install .
+  166  ls
+  167  clear
+  168  ls -la
+  169  ./certbot
+  170  cd certbot
+  171  ls
+  172  ./certbot
+  173  cd ..
+  174  ls
+  175  cd ..
+  176  ls -la
+  177  cd certbot
+  178  cd ..
+  179  ls -la
+  180  pwd
+  181  ls se*
+  182  cd certbot
+  183  ls se*
+  184  python setup.py install
+  185  cd /home/chandana/anaconda3/bin/
+  186  ls 
+  187  ls cert*
+  188  certbot
+  189  ./certbot
+  190  sudo ./certbot
+  191  xs
+  192  cd
+  193  ls -la
+  194  vi .bashrc
+  195  exit
+  196  cd IdeaProjects/maraichage-backend-accountsreceivable/
+  197  cd src/main/resources/
+  198  ls -la
+  199  rem -Rf keystore/
+  200  rm -Rf keystore/
+  201  pwd
+  202  cp /home/chandana/keystore/keystore.p12 .
+  203  exit
+  204  cd Downloads/
+  205  cd ideaIC-2023.2.2/idea-IC-232.9921.47/bin/
+  206  ./idea.sh 
+  207  exit
+  208  cd ReactJS//my-app/
+  209  more .env 
+  210  npm start
+  211  npm run deploy
+  212  cd
+  213  ls
+  214  clear
+  215  cd IdeaProjects/maraichage-backend-accountsreceivable/
+  216  ls
+  217  cd src/main/resources/
+  218  ls
+  219  rm -Rf keystore
+  220  rm baeldung.*
+  221  ls
+  222  rm keystore.p12 
+  223  rm server.*
+  224  clear
+  225  mkdir keystore
+  226  cd keystore/
+  227  keytool -genkeypair -keyalg RSA -keysize 2048 -storetype PKCS12 -keystore keystore.p12 -validity 3650
+  228  ls -la
+  229  pwd
+  230  cd 
+  231  ls -la
+  232  ls k*
+  233  mkdir keystore
+  234  cd keystore/
+  235  keytool -genkeypair -keyalg RSA -keysize 2048 -storetype PKCS12 -keystore keystore.p12 -validity 3650
+  236  ls -la
+  237  pwd
+  238  cd 
+  239  cd ReactJS/my-app/
+  240  npm run deploy
+  241  exit
+  242  certbot
+  243  exit
+  244  domainname
+  245  domain www.maraichage.com
+  246  domainname www.maraichage.com
+  247  sudo domainname www.maraichage.com
+  248  domainname
+  249  sudo domainname www.mara-i-chage.com
+  250  domainname
+  251  sudo domainname www.maraichage.com
+  252  domainname
+  253  cd /
+  254  ls -la
+  255  cd /srv/
+  256  ls
+  257  cd
+  258  pwd
+  259  domainname
+  260  pwd
+  261  cd /var/www/html/
+  262  ls -la
+  263  more info.php
+  264  cp /home/chandana/Downloads/Lc1uaqER_cIVG4N__mrRBYPwjOo80QiOSZfZlMdfb0k .
+  265  sudo cp /home/chandana/Downloads/Lc1uaqER_cIVG4N__mrRBYPwjOo80QiOSZfZlMdfb0k .
+  266  sudo mkdir .well-known
+  267  sudo mkdir .well-known/acme-challenge
+  268  sudo cp /home/chandana/Downloads/Lc1uaqER_cIVG4N__mrRBYPwjOo80QiOSZfZlMdfb0k .well-known/acme-challenge/
+  269  sudo cp /home/chandana/Downloads/ZufozPAx1RwhiLAXyrlonh7p5DOktkyQUr-y-INkbGg .well-known/acme-challenge/
+  270  certbot certificates
+  271  sudo certbot certificates
+  272  cd
+  273  sudo certbot certificates
+  274  certbot
+  275  sudo certbot
+  276  su
+  277  exot
+  278  exit
+  279  cd keystore/
+  280  cd
+  281  rm -Rf keystore/
+  282  cd IdeaProjects/maraichage-backend-accountsreceivable/
+  283  cd src/main/resources/
+  284  ls -la
+  285  rm keystore.p12 
+  286  sudo certbot certonly --standalone -d maraichage.com -d www.maraichage.com
+  287  whereis certbot
+  288  sudo ./certbot certonly --standalone -d maraichage.com -d www.maraichage.com
+  289  sudo /home/chandana/anaconda3/bin/certbot certonly --standalone -d maraichage.com -d www.maraichage.com
+  290  exit
+  291  domainname
+  292  sudo domainname
+  293  sudo domainname localdomain
+  294  sudo domainname
+  295  hostname
+  296  hostname localhost
+  297  sudo hostname localhost
+  298  ping localhost
+  299  vi /etc/hosts
+  300  sudo vi /etc/hosts
+  301  hostname
+  302  exit
+  303  mysql -u chandana -p
+  304  exit
+  305  cd ReactJS/accountsreceivable/
+  306  cd ..
+  307  cd my-app/
+  308  npm start
+  309  exit
+  310  domainname
+  311  cd Downloads/ideaIC-2023.2.2/idea-IC-232.9921.47/bin/
+  312  ./idea.sh
+  313  exit
+  314  more /etc/hosts
+  315  exit
+  316  cd /var/www/html/
+  317  ls -la
+  318  rm -Rf .well-known/
+  319  sudo rm -Rf .well-known/
+  320  ls -la
+  321  sudo rm Lc1uaqER_cIVG4N__mrRBYPwjOo80QiOSZfZlMdfb0k 
+  322  ls -la
+  323  sudo sysctl status httpd
+  324  sudo systemctl status httpd
+  325  sudo systemctl start httpd
+  326  sudo systemctl status httpd
+  327  ckear
+  328  clear
+  329  cd
+  330  ccd ReactJS/accountsreceivable/
+  331  cd ReactJS/accountsreceivable/
+  332  npm start
+  333  cd ..
+  334  cd my-app/
+  335  npm start
+  336  npm run deploy
+  337  git add .
+  338  git push
+  339  git add .
+  340  git commit -m "push 23-11-2023"
+  341  git push
+  342  npm start
+  343  git add .
+  344  git commit -m "push 23-11-2023-2nd time"
+  345  git push
+  346  clear
+  347  crc start
+  348  oc new-project accountreceivable 
+  349  oc login 
+  350  oc new-project accountreceivable 
+  351  oc new-app https://github.com/Chandanakka/my-app
+  352  oc status
+  353  oc expose svc/accountsreceivable
+  354  oc expose svc/my-app
+  355  oc get route
+  356  oc status
+  357  oc status --suggest
+  358  oc set probe dc/my-app --readiness
+  359  oc set probe pod/my-app-1-deploy --liveness
+  360  oc set probe pod/my-app-1-6mslr  --liveness
+  361  oc set probe my-app-1-6mslr  --liveness
+  362  oc set probe my-app-1-6mslr  --all
+  363  oc set probe  --all
+  364  clear
+  365  oc route
+  366  oc get route
+  367  exit
+  368  echo $HOST
+  369  more /etc/hosts
+  370  ping 192.168.130.11
+  371  clear
+  372  exit
+  373  cd Downloads/ideaIC-2023.2.2/idea-IC-232.9921.47/./idea.sh
+  374  cd Downloads/ideaIC-2023.2.2/idea-IC-232.9921.47/bin
+  375  ./idea.sh
+  376  exit
+  377  cd ReactJS/accountspayable
+  378  cd 
+  379  exit
+  380  cd ReactJS/my-app/
+  381  npm start
+  382  clear
+  383  exit
+  384  cd Downloads/ideaIC-2023.2.2/idea-IC-232.9921.47/bin/
+  385  ./idea.sh 
+  386  clear
+  387  exit
+  388  cdserver.port=8443
+  389  # server.ssl.key-store=classpath:keystore.p12
+  390  # server.ssl.key-store-password=parents
+  391  # server.ssl.key-store-type=PKCS12
+  392  # server.ssl.key-alias=tomcat
+  393  server.address=0.0.0.0 
+  394  cd ReactJS/accountspayable
+  395  npm start
+  396  vi .env
+  397  npm start
+  398  clear
+  399  exit
+  400  cd Downloads/ideaIC-2023.2.2/idea-IC-232.9921.47/bin/
+  401  ./idea.sh
+  402  exit
+  403  cd Downloads/ideaIC-2023.2.2/idea-IC-232.9921.47/bin/
+  404  ./idea.sh
+  405  cd 
+  406  cd NetBeans
+  407  cd NetBeansProjects/
+  408  ls -la
+  409  clear
+  410  ls
+  411  cd ..
+  412  cd ReactJS/
+  413  ls
+  414  cd accountsreceivable/
+  415  npm start
+  416  clear
+  417  exi
+  418  exit
+  419  cd IdeaProjects/
+  420  ls
+  421  cd maraichage-backend-accountsreceivable/
+  422  ls -la
+  423  cd target/
+  424  ls
+  425  java -version
+  426  java -jar maraichage-backend-accountsreceivable-0.0.1-SNAPSHOT.jar 
+  427  clear
+  428  java -jar maraichage-backend-accountsreceivable-0.0.1-SNAPSHOT.jar 
+  429  clear
+  430  history
+  431  clear
+  432  cd /etc/systemd/system/
+  433  sudo vi maraichage-backend-accountsreceivable.service
+  434  sudo systemctl start maraichage-backend-accountsreceivable.service 
+  435  sudo systemctl status maraichage-backend-accountsreceivable.service 
+  436  sudo vi maraichage-backend-accountsreceivable.service
+  437  sudo systemctl start maraichage-backend-accountsreceivable.service 
+  438  sudo systemctl daemon-reload
+  439  sudo systemctl start maraichage-backend-accountsreceivable.service 
+  440  sudo systemctl status maraichage-backend-accountsreceivable.service 
+  441  sudo vi maraichage-backend-accountsreceivable.service
+  442  pwd
+  443  sudo more maraichage-backend-accountsreceivable.service
+  444  sudo systemctl daemon-reload
+  445  sudo systemctl start maraichage-backend-accountsreceivable.service 
+  446  sudo systemctl status maraichage-backend-accountsreceivable.service 
+  447  java -jar /home/chandana/IdeaProjects/maraichage-backend-accountsreceivable/target/maraichage-backend-accountsreceivable-0.0.1-SNAPSHOT.jar 
+  448  clear
+  449  sudo vi maraichage-backend-accountsreceivable.service
+  450  sudo systemctl daemon-reload
+  451  java -jar /home/chandana/IdeaProjects/maraichage-backend-accountsreceivable/target/maraichage-backend-accountsreceivable-0.0.1-SNAPSHOT.jar 
+  452  sudo systemctl daemon-reload
+  453  sudo systemctl start maraichage-backend-accountsreceivable.service 
+  454  sudo systemctl status maraichage-backend-accountsreceivable.service 
+  455  sudo vi maraichage-backend-accountsreceivable.service
+  456  sudo systemctl start maraichage-backend-accountsreceivable.service 
+  457  sudo systemctl daemon-reload
+  458  sudo systemctl start maraichage-backend-accountsreceivable.service 
+  459  sudo systemctl status maraichage-backend-accountsreceivable.service 
+  460  clear
+  461  cd
+  462  ls -la
+  463  cd dbBackup/
+  464  clear
+  465   ls
+  466  mysqldump -h 192.168.0.108 -u chandana -p parents > mysqldump-28-11-2023
+  467  mysqldump -h 192.168.0.108 -u chandana --port 3306 > mysqldump-28-11-2023
+  468  ls -la
+  469  more mysqldump-28-11-2023 
+  470  ls -la
+  471  rm mysqldump-28-11-2023 
+  472  mysqldump -h 192.168.0.108 -u chandana --port 3306 -p --all databases > mysqldump-28-11-2023
+  473  mysqldump -h 192.168.0.108 -u chandana --port 3306 -p --all-databases > mysqldump-28-11-2023
+  474  cd
+  475  ls -la
+  476  ls -l GL*
+  477  pip3 install mariadb
+  478  pip install mariadb
+  479  sudo pip install mariadb
+  480  su
+  481  pip install pyodbc
+  482  cd Downloads/mariadb-connector-c-3.3 cd 
+  483  cd NetBeansProjects/
+  484  ls
+  485  rm -Rf GLReport
+  486  cd 
+  487  cd Downloads/
+  488  ls -la
+  489  cd mariadb-connector-c-3.3
+  490  cd mariadb-connector-c-3.3.7-rhel9-amd64/
+  491  ls -la
+  492  clear
+  493  cd bin
+  494  ls
+  495  ./mariadb_config 
+  496  cd
+  497  cd Downloads/
+  498  ls -la
+  499  cd
+  500  pwd
+  501  clear
+  502  ls exit
+  503  exit
+  504  java --version
+  505  exit
+  506  cd IdeaProjects/maraichage-backend-accountspayable/
+  507  git add .
+  508  git commit -m "Committ 24-11-2023"
+  509  git push
+  510  clear
+  511  cd
+  512  cd ReactJS/
+  513  cd accountspayable
+  514  ls -la
+  515  git add .
+  516  git commit -m "24-11-2023"
+  517  git push
+  518  clear
+  519  ls -la
+  520  cd
+  521  cd IdeaProjects/maraichage-backend-accountspayable/
+  522  ls
+  523  ls -la
+  524  cd out/artifacts/maraichage_backend_jar/
+  525  ls -la
+  526  clear
+  527  java -jar maraichage-backend.jar 
+  528  clear
+  529  cd ../../../
+  530  pwd
+  531  cd chandana/
+  532  cd IdeaProjects/maraichage-backend-accountspayable/
+  533  ls -la
+  534  git add .
+  535  git committ -m "25-11-2023 - 01"
+  536  git 
+  537  git add .
+  538  git committ -m "25-11-2023 - 02"
+  539  git commit -m "25-11-2023 - 02"
+  540  git push
+  541  clear
+  542  git add .
+  543  git commit -m "25-11-2023 - 03"
+  544  git push
+  545  clear
+  546  cd ..
+  547  cd maraichage-backend-accountsreceivable/
+  548  git add .
+  549  git commit -m "25-11-2023 - 01"
+  550  git push
+  551  ls -la
+  552  cd out/artifacts/maraichage_backend_accountsreceivable_jar/
+  553  ls
+  554  java -jar maraichage-backend-accountsreceivable.jar 
+  555  clear
+  556   ls -la
+  557  java -jar maraichage-backend-accountsreceivable.jar > test.out
+  558  vi test.out
+  559  java -jar maraichage-backend-accountsreceivable.jar
+  560  ls -la
+  561  java -jar maraichage-backend-accountsreceivable.jar > test.out
+  562  vi test.out
+  563  clear
+  564  ls -la
+  565  java -jar maraichage-backend-accountsreceivable.jar
+  566  java -jar maraichage-backend-accountsreceivable.jar > test.out
+  567  vi test.out 
+  568  java -jar maraichage-backend-accountsreceivable.jar
+  569  clear
+  570  java -jar maraichage-backend-accountsreceivable.jar > test.out
+  571  vi test.out 
+  572  java -jar maraichage-backend-accountsreceivable.jar > test.out
+  573  vi test.out 
+  574  java -jar maraichage-backend-accountsreceivable.jar
+  575  :q
+  576  spring version
+  577  spring
+  578  cd 
+  579  cd Downloads/spring-boot-cli-3.2.0-bin/
+  580  ls
+  581  cd spring-3.2.0/bin/
+  582  ls -la
+  583  clear
+  584  ./spring 
+  585  java --version
+  586  whereis java
+  587  clear
+  588  cd
+  589  ls -la
+  590  cd .jdks/openjdk-21/bin/
+  591  ./java --version
+  592  pwd
+  593  cd
+  594  cd Downloads/spring-boot-cli-3.2.0-bin/spring-3.2.0/bin/
+  595  cd
+  596  vi .bashrc
+  597  export PATH=/home/chandana/.jdks/openjdk-21/bin:$PATH
+  598  clear
+  599  cd Downloads/spring-boot-cli-3.2.0-bin/spring-3.2.0/bin/
+  600  ls -la
+  601  ./spring 
+  602  sdk
+  603  ./spring version
+  604  java --versiob
+  605  java --version
+  606  clear
+  607  cd
+  608  cd IdeaProjects/maraichage-backend-accountsreceivable/out/artifacts/maraichage_backend_accountsreceivable_jar/
+  609  java -jar maraichage-backend-accountsreceivable.jar 
+  610  java -jar maraichage-backend-accountsreceivable.jar clear
+  611  java -jar maraichage-backend-accountsreceivable.jar
+  612  clear
+  613  pwd
+  614  ls
+  615  cd
+  616  cd IdeaProjects/
+  617  cd maraichage-backend-accountsreceivable/
+  618  ls
+  619  cd target/
+  620  ls
+  621  pwd
+  622  java - jar /home/chandana/IdeaProjects/maraichage-backend-accountsreceivable/target/maraichage-backend-accountsreceivable-0.0.1-SNAPSHOT.jar
+  623  ExecStart=java - jar /home/chandana/IdeaProjects/maraichage-backend-accountsreceivable/target/maraichage-backend-accountsreceivable-0.0.1-SNAPSHOT.jar
+  624  java - jar /home/chandana/IdeaProjects/maraichage-backend-accountsreceivable/target/maraichage-backend-accountsreceivable-0.0.1-SNAPSHOT.jar
+  625  clear
+  626  cd 
+  627  cd IdeaProjects/maraichage-backend-accountsreceivable/
+  628  cd target/
+  629  pwd
+  630  ls -la
+  631  java -jar maraichage-backend-accountsreceivable-0.0.1-SNAPSHOT.jar 
+  632  clear
+  633  mysqladmin -h 192.168.0.108 version
+  634  sudo systemctl status firewalld.service 
+  635  sudo mysqladmin -h 192.168.0.108 version
+  636  ping 192.168.0.108
+  637  cd
+  638  cd Downloads/
+  639  ls -la
+  640  vi MaRa-I-ChaGe-CountEntry-DB.sql 
+  641  pwd
+  642  cp /home/chandana/dbBackup/mysqldump-28-11-2023 .
+  643  vi MaRa-I-ChaGe-CountEntry-DB.sql 
+  644  vi localhost.sql 
+  645  pip install mysql-connector-python pandas
+  646  clear
+  647  cd Downloads/postman-linux-x64\ \(1\)/Postman/
+  648  postman
+  649  exit
+  650  ps -au
+  651  ps -aux
+  652  kill 484793
+  653  clear
+  654  pwd
+  655  ls 
+  656  more GLOutput.html 
+  657  clear
+  658  ls
+  659  rm GLOutput.html 
+  660  cd NetBeansProjects/
+  661  ls
+  662  rm -Rf mavenprojectPicture/
+  663  sudo systemctl status httpd
+  664  cd
+  665  ls -pa
+  666  ls 
+  667  ls -la
+  668  clear
+  669  cd 
+  670  cd IdeaProjects/cd
+  671   ls -la
+  672  cd AccountsReceivable-old
+  673  pwd
+  674  clear
+  675  ls -la
+  676  cd
+  677  cd Downloads/ideaIC-2023.2.2/idea-IC-232.9921.47/bin/
+  678  ./idea.sh 
+  679  exit
+  680  sudo systemctl status firewalld.service 
+  681  sudo npm install axios
+  682  exit
+  683  cd Downloads/postman-linux-x64\ \(1\)/
+  684  postman
+  685  exit
+  686  cd NetBeansP
+  687  cd NetBeansProjects/
+  688  ls -la
+  689  cd 
+  690  cd ReactJS/
+  691  ls -la
+  692  npx create-react-app retImage-app
+  693  npx create-react-app retimage-app
+  694  cd retimage-app/
+  695  npm start
+  696  exit
+  697  cd Downloads/
+  698  ls 
+  699  clear
+  700  sudo tar -xzf jetbrains-toolbox-1.17.7391.tar.gz -C /opt
+  701  sudo tar -xzf jetbrains-toolbox-2.1.1.18388.tar.gz -C /opt
+  702  cd /opt/
+  703  ls
+  704  cd jetbrains-toolbox-2.1.1.18388/
+  705  ls
+  706  jetbrains-toolbox 
+  707  pip instll pymsysql
+  708  pip install pymsysql
+  709  pip install pymysql
+  710  cd 
+  711  ls 
+  712  ls GL*
+  713  ls -laGL*
+  714  ls -la GL*
+  715  more GL_Output.html 
+  716  cd 
+  717  cd Downloads/postman-linux-x64\ \(1\)/
+  718  postman 
+  719  cd ..
+  720  cd ideaIC-2023.2.2/idea-IC-232.9921.47/bin/
+  721  ./idea.sh 
+  722  cd 
+  723  ls GL*
+  724  ls -la GL*
+  725  vi GL_Output.html
+  726  clear
+  727  ls -la
+  728  cd Downloads/
+  729  cd ideaIC-2023.2.2/idea-IC-232.9921.47/bin/
+  730  clear
+  731  ./idea.sh 
+  732  exit
+  733  cd ReactJS/
+  734  ls
+  735  cd retimage-app/
+  736  npm start
+  737  exit
+  738  cd Downloads/ideaIC-2023.2.2/idea-IC-232.9921.47/bin/
+  739  ./idea.sh 
+  740  oc start
+  741  crc start
+  742  clear
+  743  oc new-project open-shift-test
+  744  oc login
+  745  oc new-project open-shift-test
+  746  oc new-app kishoreac/open-shift-test:latest
+  747  oc expose svc/open-shift-test
+  748  oc get pods
+  749  oc deplpoy open-shift-test --latest
+  750  oc deploy open-shift-test --latest
+  751  oc get pods
+  752  curl http://172.30.220.10
+  753  clear
+  754  oc new-project open-shift-test
+  755  oc new-app kishoreac/open-shift-test
+  756  oc get pods
+  757  clear
+  758  sudo oc new-project open-shift-test
+  759  su
+  760  sudo oc new-project open-shift-test
+  761  oc new-project open-shift-test
+  762  oc new-app kishoreac/open-shift-test
+  763  clear
+  764  vi Dockerfile 
+  765  docker build -t kishoreac/open-shift-test .
+  766  sudo groupadd docker
+  767  sudo usermod -aG docker ${USER}
+  768  su -s ${USER}
+  769  netstat -tulpn | grep ':443'
+  770  netstat -tulpn | grep ':8080'
+  771  sudo netstat -tulpn | grep ':8080'
+  772  sudo netstat -tulpn | grep ':3306'
+  773  docker
+  774  kubectl
+  775  clear
+  776  cd ReactJS/
+  777  ls -la
+  778  cd nbproject/
+  779  npm start
+  780  cd ..
+  781  cd open-shift-test/
+  782  ls
+  783  npm start
+  784  clear
+  785  vi .env
+  786  npm run build
+  787  docker login
+  788  vi Dockerfile
+  789  vi .dockerignore
+  790  clear
+  791  docker build -t kishoreac/open-shift-test .
+  792  sudo systemctl status docker.service 
+  793  sudo systemctl start docker.service 
+  794  docker build -t kishoreac/open-shift-test .
+  795  sudo docker build -t kishoreac/open-shift-test .
+  796  clear
+  797  docker run -d -p 3000:80 kishoreac/open-shift-test
+  798  sudo docker run -d -p 3000:80 kishoreac/open-shift-test
+  799  sudo docker stop $(docker ps -a -q)
+  800  sudo docker ps
+  801  docker stop ce2d98604003
+  802  sudo docker stop ce2d98604003
+  803  clear
+  804  sudo docker ps
+  805  sudo docker push kishoreac/open-shuft-test
+  806  sudo docker push kishoreac/open-shuft-test:latest
+  807  sudo docker push kishoreac/open-shift-test:latest
+  808  clear
+  809  sudo docker push kishoreac/open-shift-test:latest
+  810  sudo docker login -u "kishoreac" -p "Parents02" docker.io
+  811  sudo docker push kishoreac/open-shift-test:latest
+  812  clear
+  813  kubectl create namespace opem-shift-test
+  814  kubectl create namespace open-shift-test
+  815  sudo kubectl create namespace open-shift-test
+  816  kube --version
+  817  kube -version
+  818  kubctl -version
+  819  kubectl -version
+  820  kubectl --version
+  821  clear
+  822  kubectl start
+  823  kubeadm
+  824  kubectl get --raw='/readyz?verbose'
+  825  kubeadm
+  826  sudo yum install kubeadm
+  827     curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+  828     curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl.sha256"
+  829  echo "$(cat kubectl.sha256)  kubectl" | sha256sum --check
+  830  sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
+  831  chmod +x kubectl
+  832  mkdir -p ~/.local/bin
+  833  mv ./kubectl ~/.local/bin/kubectl
+  834  kubectl version --client
+  835  kubeadm
+  836  clear
+  837  vi .bashrc
+  838  exit
+  839  cd ReactJS/
+  840  cd open-shift-test/
+  841  su -s ${USER}
+  842  su -s chandana
+  843  sudo groupadd docker
+  844  sudo usermod -aG docker ${USER}
+  845  su -s chandana
+  846  docker build -t kishoreac/open-shift-test .
+  847  sudo docker build -t kishoreac/open-shift-test .
+  848  clear
+  849  su
+  850  exit
+  851  echo $HOME
+  852  echo $PATH
+  853  cd Downloads/
+  854  ls ana*
+  855  ls ana*.*
+  856  ls -la
+  857  Anaconda3-2023.09-0-Linux-x86_64.sh
+  858  anaconda
+  859  anaconda -h
+  860  clear
+  861  cd
+  862  cd anaconda3/
+  863  ls -la
+  864  cd bin/
+  865  ls
+  866  anaconda
+  867  ./anaconda
+  868  clear
+  869  ls ana*
+  870  anaconda-navigator
+  871  exit
+  872  vi .bashrc
+  873  cd Downloads/
+  874  vi .bashrc
+  875  d
+  876  cd
+  877  vi .bashrc
+  878  curl -X GET "http://localhost:8080/api/your-entity/data?startDate=2023-01-01&endDate=2023-12-31"
+  879  curl -X GET "http://localhost:8082/AccountsPayable/data?startDate=2023-01-01&endDate=2023-12-31"
+  880  clear
+  881  curl -X GET "http://localhost:8082/AccountsPayable/data?startDate=2023-01-01&endDate=2023-12-31"
+  882  clear
+  883  exit
+  884  cd Downloads/
+  885  ls tbl*
+  886  clear
+  887  vi tblGeneralLedger-GL_Voucher_Image (1).bin
+  888  vi "tblGeneralLedger-GL_Voucher_Image (1).bin"
+  889  exit
+  890  history
+  891  cd dbbackup
+  892  cd
+  893  cd dbbackup
+  894  cd dbBackup/
+  895  ls -la
+  896  mysqldump -h 192.168.0.108 -u chandana --port 3306 -p --all-databases > mysqldump-11-12-2023
+  897  history > test.his
+  898  vi test.his 
+  899  clear
+  900  mysqldump -u username -p -h 192.168.0.108 MaRa-I-ChaGe-CountEntry-DB > 11-12-2023.sql
+  901  mysqldump -u chandana -p -h 192.168.0.108 MaRa-I-ChaGe-CountEntry-DB > 11-12-2023.sql
+  902  mysqldump -h 192.168.0.108 -u chandana --port 3306 -p --all-databases > mysqldump-11-12-2023
+  903  cd 
+  904  cd ReactJS/
+  905  ls
+  906  cd retimage-app/
+  907  npm start
+  908  exit
+  909  cd ReactJS/
+  910  ls
+  911  history
+  912  npx create-react-app listreceivables
+  913  cd listreceivables/
+  914  npm start
+  915  cd ../retimage-app/
+  916  npm start
+  917  cd ../listreceivables/
+  918  npm start
+  919  cd ../retimage-app/
+  920  npm start
+  921  cd ../listreceivables/
+  922  npm start
+  923  npm install --save buffer
+  924  npm start
+  925  rxit
+  926  exit
+  927  cd Downloads/
+  928  cd postman-linux-x64\ \(1\)/Postman/
+  929  postman
+  930  curl `http://localhost:8082/AccountsPayable/data?startDate=2023-01-01&endDate=2023-12-31`
+  931  curl http://localhost:8082/AccountsPayable/data?startDate=2023-01-01&endDate=2023-12-31
+  932  history
+  933  curl http://localhost:8082/AccountsPayable/data?startDate="2023-01-01"&endDate="2023-12-31"
+  934  curl http://localhost:8082/AccountsPayable/data?startDate=2023-01-01&endDate=2023-12-31
+  935  cler
+  936  clear
+  937  cd 
+  938  cd ReactJS/
+  939  ls
+  940  cd accountspayable
+  941  npm start
+  942  cd ..
+  943  cd accountspayable-app/
+  944  npm start
+  945  c ..
+  946  cd ..
+  947  ;s
+  948  ls
+  949  cd my-app/
+  950  npm start
+  951  cd ..
+  952  ls -la
+  953  cd accountspayable
+  954  npm start
+  955  exit
+  956  cd 
+  957  cd ReactJS/
+  958  cd listreceivables/
+  959  exit
+  960  cd Downloads/
+  961  cd postman-linux-x64\ \(1\)/Postman/
+  962  postman
+  963  exit
+  964  cd Downloads/ideaIC-2023.2.2/idea-IC-232.9921.47/bin/
+  965  ./idea.sh 
+  966  exit
+  967  cd Downloads/
+  968  cd ideaIC-2023.2.2/idea-IC-232.9921.47/bin/
+  969  ./idea.sh 
+  970  exit
+  971  cd ReactJS/
+  972  cd accountspayable-app/
+  973  npm start
+  974  cd ..
+  975  cd accountspayable/
+  976  npm start
+  977  exit
+  978  ld imag*
+  979  ls image*
+  980  ls -l image*
+  981  exit
+  982  cd dbBackup/
+  983  history > test.his
+  984  vi test.his 
+  985  mysql -u chandana =p parents < MaRa-I-ChaGe-CountEntry-DB-22-12-2023.sql 
+  986  mysqldump -u chandana =p parents < MaRa-I-ChaGe-CountEntry-DB-22-12-2023.sql
+  987  mysql -u chandana -p
+  988  mysqldump -u chandana -p parents < MaRa-I-ChaGe-CountEntry-DB-22-12-2023.sql
+  989  mysqldump -u chandana -p MaRa-I-ChaGe-CountEntry-DB < MaRa-I-ChaGe-CountEntry-DB-22-12-2023.sql 
+  990  ls -la
+  991  vi MaRa-I-ChaGe-CountEntry-DB-22-12-2023.sql 
+  992  mysqldump -u chandana -p MaRa-I-ChaGe-CountEntry-DB < MaRa-I-ChaGe-CountEntry-DB-22-12-2023.sql
+  993  1;1;120;120;1;0xclear
+  994  clear
+  995  cd 
+  996  cd ReactJS/
+  997  cd listreceivables/
+  998  npm run
+  999  npm start
+ 1000  exit
+ 1001  cd Downloads/
+ 1002  cd postman-linux-x64\ \(1\)/Postman/
+ 1003  postman
+ 1004  clear
+ 1005  cd 
+ 1006  cd IdeaProjects/
+ 1007  ls
+ 1008  l s-la
+ 1009  ls -la
+ 1010  cd maraichage-backend-accountspayable/
+ 1011  ls -la
+ 1012  cd out/
+ 1013  ls
+ 1014  cd artifacts/
+ 1015  ls
+ 1016  cd maraichage_backend_jar/
+ 1017  ls -la
+ 1018  cd 
+ 1019  cd IdeaProjects/maraichage-backend-accountspayable/
+ 1020  ls -la
+ 1021  clear
+ 1022  history > test.his
